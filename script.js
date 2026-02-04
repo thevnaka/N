@@ -1,8 +1,11 @@
 const introTexts = [
     "Hey Angelllll",
     "How are you?",
+    "Well...",
     "I have a question.",
     "Are you ready!?!? (I am excited)",
+    "I hope you are :0",
+    "Alight here we go",
     "3...",
     "2..",
     "1."
@@ -16,7 +19,7 @@ const securityQuestions = [
     },
     {
         question: "Security Level 2: Where did we have our first kiss?",
-        options: ["Car", "Midnight Divas", "My Place", "The Movies"],
+        options: ["Car", "Midnight Divas", "My Place", "Cinema"],
         correct: 3
     },
     {
