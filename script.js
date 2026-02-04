@@ -1,7 +1,8 @@
 const introTexts = [
     "Hey Angelllll",
-    "How are youuu?",
-    "I have a question. Are you ready!?!? (I am excited)",
+    "How are you?",
+    "I have a question.",
+    "Are you ready!?!? (I am excited)",
     "3...",
     "2..",
     "1."
