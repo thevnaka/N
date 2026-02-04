@@ -138,3 +138,60 @@ button:hover { transform: scale(1.05); }
     box-shadow: inset 0 2px 5px rgba(0,0,0,0.05); 
 }
 .hidden { display: none; }
+
+
+@media screen and (max-width: 600px) {
+    
+
+    .container {
+        width: 95%;
+        padding: 20px; 
+    }
+
+
+    h1 {
+        font-size: 2rem; 
+        margin-bottom: 15px;
+    }
+
+    .fade-text {
+        font-size: 2rem; 
+    }
+
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    button {
+        width: 100%; 
+        max-width: 250px;
+    }
+
+  
+    #no-btn {
+        position: relative; 
+    }
+
+
+    .gif {
+        max-width: 150px;
+    }
+
+
+    .gallery {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
+
+    .polaroid {
+        width: 80%; 
+        max-width: 250px;
+        transform: none !important; 
+        margin-bottom: 10px;
+    }
+}
