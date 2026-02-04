@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVD</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div id="intro-screen" class="intro-overlay">
+        <h1 id="intro-text" class="fade-text">Hey bubsii</h1>
+    </div>
+
+    <div class="container hidden" id="main-container">
+        
+        <div id="question-screen">
+            <img id="main-img" src="/Images/IMG_2823.png" alt="An image of your baby boyyyy" class="gif">
+            <h1 id="main-text">Will you be my Valentine?</h1>
+            <div class="buttons">
+                <button id="yes-btn" onclick="handleYes()">Yes! ❤️</button>
+                <button id="no-btn" onmouseover="moveButton()" onclick="moveButton()">No 💔</button>
+            </div>
+        </div>
+
+        <div id="security-screen" class="hidden">
+            <h2>⚠️The Surprise is just for my girl ⚠️</h2>
+            <p>Please verify your identity.</p>
+            
+            <div class="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+            <p id="level-indicator">Level 1/3</p>
+
+            <div class="quiz-box">
+                <h3 id="security-question">Loading...</h3>
+                <div id="security-options" class="options-grid"></div>
+                <p id="feedback-msg"></p>
+            </div>
+        </div>
+
+        <div id="final-reward" class="hidden">
+            <h1>Identity Verified: <br>It's indeed my girl!❤️</h1>
+            <p class="letter-text">
+            Hey babyyy,
+            <br><br>
+
+            Before I start, thank you for saying yes to being my forever Valentine. I love you so much. You are the best thing that's ever happened to me.
+
+            Since the day we felt a spark for each other, I fallen for you harder every single day, and I still do. As time went by without me even realizing, you became my world. My world started to revolve around you. After you came into my life, everything just felt absolutely perfect.  I love everything about you. I would probably need to make another webpage if I tried to type down everything I love about you. Whenever I stare at your beautiful face, I just think, damn, I am so in love with this girl.
+            <br><br>
+            When I am with you, everything just feels better, lighter, brighter with you in my life. All the pressure I have just disappears. You are my safe space, my comfort zone and peace. Getting to rest my head on your chest and fall asleep while you give me head scratches is one of the best feelings ever. I could stay like that forever. 
+            <br><br>
+            You are everything I need, my angel. You are literally so perfect. You understand me, you know how to deal with me, you’re always so supportive, you give me great advice, and you always notice even the smallest change in my mood. You’re loyal, cute, hot, pretty, gorgeous and absolutely wildddddd. I literally hit the jackpot. You make me so happy. Not to forget, Horny too. You are so addictive. You are my drug. So much in love with you.
+            <br><br>
+            Thank you for coming into my life. I promise I’ll never hurt you, my sweet angel. I’ll never let those eyes shed a tear cuz of me. All I want is to keep you happy, stressfree, horny 24/7 obv and always making you feeled loved, cared for, validated, and safe. I will do anything to see a smile on your face.
+            <br><br>
+            I love you baby, and I care about you a lot. I can’t wait to see you again and give you loads of hugs and kisses.
+            <br><br>
+            Thank you being my Valentine
+            <br><br>
+            Take care my angel.
+            <br><br>
+            Love,
+            Thev
+            </p>
+            
+            <div class="gallery">
+                <img src="/Images/WhatsApp Image 2026-02-04 at 14.18.01.jpeg" class="polaroid" style="transform: rotate(-3deg);">
+                <img src="/Images/WhatsApp Image 2026-02-04 at 14.13.40.jpeg" class="polaroid" style="transform: rotate(2deg);">
+                <img src="/Images/WhatsApp Image 2026-02-04 at 14.13.40 (1).jpeg" class="polaroid" style="transform: rotate(-2deg);">
+            </div>
+        </div>
+
+    </div>
+    <audio id="bg-music" loop>  <source src="Assets/Dr. Hook - When You're In Love With A Beautiful Woman (1979)• TopPop [bD0CSd6BM6w].mp3" type="audio/mpeg">  </audio>
+    <script src="script.js"></script>
+</body>
+</html>

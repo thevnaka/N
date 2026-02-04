@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary: #ff4d6d;
+    --bg-color: #fff0f3;
+}
+
+body {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* --- INTRO TEXTSS --- */
+.intro-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fade-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+/* --- MAIN CONTAINER --- */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 500px;
+}
+
+.gif { max-width: 400px; border-radius: 15px; }
+
+h1 { color: var(--primary); font-family: 'Dancing Script', cursive; margin-bottom: 20px; }
+h2 { color: #590d22; }
+
+
+.buttons { display: flex; gap: 20px; justify-content: center; margin-top: 20px; }
+button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: var(--primary);
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+button:hover { transform: scale(1.05); }
+#no-btn { background: white; color: var(--primary); border: 2px solid var(--primary); }
+
+/* ---RAGEBAITINGGG --- */
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #eee;
+    border-radius: 5px;
+    margin: 20px 0 5px 0;
+    overflow: hidden;
+}
+#progress-fill {
+    width: 0%; 
+    height: 100%;
+    background: #4caf50; 
+    transition: width 0.5s;
+}
+
+.options-grid { display: flex; flex-direction: column; gap: 10px; margin-top: 15px; }
+.options-grid button { background: white; color: #333; border: 1px solid #ccc; }
+.options-grid button:hover { background: #ffebef; }
+
+.letter-text {
+
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #444;
+
+
+    max-height: 250px; 
+    overflow-y: auto;  
+    
+
+    text-align: left;  
+    padding: 15px;    
+    background: #fff0f3; 
+    border-radius: 10px;
+    border: 1px solid #ffccd5;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.05); 
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.polaroid {
+    width: 150px;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.letter-text {
+
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #444;
+
+
+    max-height: 250px; 
+    overflow-y: auto;  
+    
+    
+    text-align: left;  
+    padding: 15px;     
+    background: #fff0f3; 
+    border-radius: 10px;
+    border: 1px solid #ffccd5;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.05); 
+}
+.hidden { display: none; }
