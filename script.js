@@ -121,7 +121,7 @@ function checkAnswer(selected, correct) {
             showFinalReward(); 
         }
     } else {
-        alert("❌ ACCESS DENIED! Try again, imposter!");
+        alert("❌ ACCESS DENIED! Try again!❌");
     }
 }
 
