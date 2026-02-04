@@ -77,7 +77,7 @@ function handleYes() {
     });
 
     document.getElementById('main-img').src = "Images/WhatsApp Video 2026-02-04 at 12.42.23.gif"; 
-    document.getElementById('main-text').innerText = "Awh.Mwhaaaa! ILYSM ";
+    document.getElementById('main-text').innerText = "Yayyyy ILYSM!! Mwhaaaa!  ";
     document.querySelector('.buttons').innerHTML = `
         <button onclick="startSecurity()">A surprise?💋</button>
     `;
