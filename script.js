@@ -24,7 +24,7 @@ const securityQuestions = [
     },
     {
         question: "Security Level 3: Who loves you more?",
-        options: ["Me (The Boyfriend)", "Amila", "Theo James", "Superman"],
+        options: ["Me (Your baby boy)", "Amila", "Theo James", "Superman"],
         correct: 0
     }
 ];
